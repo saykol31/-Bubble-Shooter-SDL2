@@ -1,0 +1,48 @@
+# ============================================================
+# Bubble Shooter - Git Ignore
+# ============================================================
+
+# CMake
+build/
+cmake-build-debug/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+install_manifest.txt
+
+# Compilación
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Ejecutables
+bin/*
+!bin/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backups
+*.backup
+*.bak
+*.old
+
+# Backups creados durante las reparaciones
+main.cpp.backup_*
+main.cpp.backup_paths_*
+main.cpp.backup_resources_*
+main.cpp.backup_bubble_position_*
+data/*.backup_*

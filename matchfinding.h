@@ -21,6 +21,9 @@ public:
     static Matchfinder* getInstance();
     void ClearPath(Bubble *bubbles[BOARD_SIZE_X][BOARD_SIZE_Y], int *pscore, int *pbubbles);
     void SetMatrix(int i, int j, BubbleColor bubbleColor);
+    void ZeroMatrix();
+    int8_t GetMatrix(int i, int j) const;
+    void PrintMatrix();
     ~Matchfinder();
 private:
     Matchfinder();

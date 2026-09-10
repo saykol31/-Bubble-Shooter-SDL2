@@ -19,7 +19,7 @@ public:
     {
         return texture;
     }
-    SDL_FRect GetDestRect(void)
+    SDL_FRect GetDestRect(void) const
     {
         return dstRect;
     }

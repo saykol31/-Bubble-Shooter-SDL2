@@ -6,7 +6,7 @@ class Bubble : public Entity
 public:
     Bubble(BubbleColor bubbleColor, SDL_FRect dstRect, bool isVisible = false);
     ~Bubble();
-    BubbleColor GetColor(void) { return bubbleColor; }
+    BubbleColor GetColor(void) const { return bubbleColor; }
     void SetColor(BubbleColor bubbleColor) { this->bubbleColor = bubbleColor; }
     void Clear(void);
 private:

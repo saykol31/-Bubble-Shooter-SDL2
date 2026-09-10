@@ -2,4 +2,4 @@ level: 1
 score: 0
 score multiplier: 2x
 timer: 150 seconds
-bubble speed: 1
+bubble speed: 10
